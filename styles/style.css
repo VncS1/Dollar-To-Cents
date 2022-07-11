@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+
+    background-color: rgb(219, 219, 219);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+
+form input.dollar-form {
+    width: 23rem;
+
+    padding: 1rem 1.5rem;
+
+    border: 0;
+
+    background-color: #eee;
+
+    border-radius: .5rem;
+
+    outline: none;
+
+    transition: border-width 0.6s linear;
+}
+
+input.dollar-form::placeholder {
+    font-family: 'Roboto', sans-serif;
+ 
+}
+
+input.dollar-form:hover {
+    outline: 1px solid rgb(5, 1, 29);
+}
+
+form input.confirm-button {
+    padding: 1rem;
+    border: 0;
+    outline: none;
+
+    color: #eee;
+
+    border-radius: .5rem;
+
+    background: rgb(8, 63, 22, 0.9);
+}
+
+
+
+.result {
+    padding: 2rem;
+
+    color: rgb(5, 1, 29);
+}
+
+.result .total-cents {
+    text-align: center;
+
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.result ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.result ul li {
+    margin-bottom: .25rem;
+}
